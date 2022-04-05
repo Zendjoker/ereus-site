@@ -1,0 +1,152 @@
+#login {
+    text-align: left;
+    position: absolute;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50vh;
+    margin-top: -30vh;
+    background: #fff;
+    color: #1d1d1d;
+    z-index: 2000;
+    padding: 0;
+    width: 25%;
+    min-width: 500px;
+    max-width: 500px;
+    box-shadow: 0px -0.5px 0.2px rgb(0 0 0 / 0%), 0px -0.2px 0.6px rgb(0 0 0 / 0%), 0px 0.7px 1.5px rgb(0 0 0 / 1%), 0px 1.9px 2.9px rgb(0 0 0 / 1%), 0px 3.5px 5.1px rgb(0 0 0 / 1%), 0px 5.6px 8.3px rgb(0 0 0 / 2%), 0px 8.2px 13.2px rgb(0 0 0 / 3%), 0px 11.5px 20.9px rgb(0 0 0 / 5%), 0px 16.2px 34.3px rgb(0 0 0 / 7%), 0px 26px 63px rgb(0 0 0 / 10%);
+}
+.roundedcorner {
+    overflow: hidden;
+    border-radius: 12px;
+}
+#login .container {
+    position: relative;
+    display: block;
+    width: 400px;
+    height: 500px;
+    margin: 60px 50px 60px 50px;
+    background: #fff;
+}
+.container, .container-sm, .container-md, .container-lg, .container-xl {
+    max-width: 1590px;
+}
+.display-4 {
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+h1, h2, h3, h4, h5, h6, h7, h8, h9 {
+    color: #1d1d1d;
+    font-family: filson-pro, sans-serif;
+    font-weight: 700 !important;
+    font-style: normal;
+}
+h1, .h1 {
+    font-size: 2.5rem;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+p {
+    padding-bottom: 30px;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+#login input {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 14px 20px 14px 20px;
+    border-radius: 6px;
+    margin-bottom: 12px;
+}
+button, input {
+    overflow: visible;
+}
+input, button, select, optgroup, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+.form-group {
+    margin-bottom: 10px;
+}
+#login .container {
+    position: relative;
+    display: block;
+    width: 400px;
+    height: 500px;
+    margin: 60px 50px 60px 50px;
+    background: #fff;
+}
+.display-4 {
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+.displayblock {
+    display: block;
+}
+a {
+    color: #35b535;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+#login .login-links {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+}
+#login .login-links a {
+    color: #747474;
+}
+#bottomarrow span {
+    margin-right: 12px;
+    position: relative;
+    top: -3px;
+    left: 0;
+    border-color: #747474;
+}
+.arrow-bottom {
+    transform: rotate(135deg);
+}
+.arrow {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-top: 2px solid #000;
+    border-right: 2px solid #000;
+}
+.form-group {
+    margin-bottom: 10px;
+}
+.btn-top {
+    border-radius: 56px;
+    max-height: 56px;
+    line-height: 56px !important;
+    padding-left: 52px !important;
+    padding-right: 52px !important;
+}
+.btn-primary {
+    font-weight: 500;
+    background: #35b535;
+}
