@@ -7,13 +7,13 @@
     margin: 0;
 }
 .naving:active{
-  border-bottom: 2px solid #FFCB35;
+    border-bottom: 2px solid #FFCB35;
 }
 .naving:hover{
-  border-bottom: 2px solid #FFCB35;
+    border-bottom: 2px solid #FFCB35;
 }
 .naving:visited{
-  border-bottom: 2px solid #FFCB35;
+    border-bottom: 2px solid #FFCB35;
 }
 .all {
     background: url("./background.png") no-repeat;
@@ -136,10 +136,11 @@ background: linear-gradient(90deg, rgba(255,208,53,1) 0%, rgba(255,192,51,1) 100
   }
   .startbg-phone {
     position: absolute;
-    top: 267px;
-    right: 14px;
+    top: 196px;
+    right: 108px;
     z-index: 900;
     background: 0px center;
+    width: 691px;
   }
 .backgroundes{
     background: 0;
@@ -156,13 +157,15 @@ h1 {
     max-width: 730px;
     margin-bottom: 20px;
     font-size: 1.25rem;
-    color: #a7a7a7;
-    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 6, 25);
+    font-family: Poppins, sans-serif;
     font-weight: 550;
-}
+    padding-top: 38px;
+  }
 p{
     padding-bottom: 30px;
     font-weight: bold;
+
 }
 .btn {
     display: inline-block;
@@ -194,11 +197,11 @@ background: linear-gradient(90deg, rgba(255,208,53,1) 0%, rgba(255,192,51,1) 100
     text-decoration: none;
     
 }
-.firstpara{
-    color: #ffffff;
-    font-family: 'Poppins', sans-serif;
+.firstpara {
+    color: #000619;
+    font-family: Poppins, sans-serif;
     word-spacing: 3px;
-}
+  }
 /*row*/
 .row {
     display: flex;
@@ -220,11 +223,12 @@ h3 {
     text-decoration: none;
 }
 h1, h2, h5, h6, h7, h8, h9 {
-    color: #ffffff;
+    color: #1920E0;
     font-family: filson-pro, sans-serif;
-    font-weight: 700 !important;
     font-style: normal;
-}
+    font-weight: 700 !important;
+    width: 30%;
+  }
 h4 ,h3{
     color: #131A67;
     font-size: 22px;
@@ -244,7 +248,7 @@ h4 ,h3{
     line-height: 42px !important;
   }
 .green {
-    color: rgb(203, 203, 203);
+    color: #000619;
   }
 .center {
     text-align: center;
@@ -297,15 +301,15 @@ a {
 }
 
 @media only screen and (max-width: 1366px) {
-    .startbg-phone {
-      position: absolute;
-      top: 196px;
-      right: -139px;
-      z-index: 841;
-      background: 0px center;
-      width: 768px;
-    }
     
+        .startbg-phone {
+          position: absolute;
+          top: 211px;
+          right: 13px;
+          z-index: 841;
+          background: 0px center;
+          width: 496px;
+        }
         .textheader {
           padding-left: 100px;
           padding-top: 110px;
@@ -315,11 +319,11 @@ a {
   @media only screen and (max-width: 922px) {
     .startbg-phone {
         position: absolute;
-        top: 196px;
+        top: 121px;
         right: -139px;
         z-index: 841;
         background: 0px center;
-        width: 768px;
+        width: 543px;
       }
   }
   @media only screen and (max-width: 800px) {
@@ -332,7 +336,7 @@ a {
           padding-bottom: 38px;
         }
         h1, h2, h5, h6, h7, h8, h9 {
-            color: rgb(255, 255, 255);
+            color: rgb(6, 9, 189);
             font-family: filson-pro, sans-serif;
             font-style: normal;
             font-weight: 700 !important;
@@ -343,10 +347,10 @@ a {
               max-width: 291px;
               margin-bottom: -30px;
               font-size: 14px;
-              color: rgb(167, 167, 167);
+              color: rgb(0, 0, 0);
               font-family: Poppins, sans-serif;
-              font-weight: 550;
-              padding-top: 16px;
+              font-weight: 800;
+              padding-top: 25px;
             
           }
           .row {
